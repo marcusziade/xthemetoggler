@@ -1,0 +1,19 @@
+/* Main button styling */
+#theme-settings-container {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#theme-settings-button {
+  width: 100%;
+  border-radius: 9999px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 1200px) {
+  #theme-settings-button div[style*="margin-left"] {
+    display: none;
+  }
+}
